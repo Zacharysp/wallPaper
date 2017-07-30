@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E69174BEB0C1D86FF4E7552 /* Pods_GridWallPaper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0D6570D8F7DD2F7D07CF76 /* Pods_GridWallPaper.framework */; };
+		B60CC7DA1F2E722B005394F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B60CC7D81F2E722B005394F1 /* Main.storyboard */; };
+		B60CC7DF1F2E7571005394F1 /* DesignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60CC7DE1F2E7571005394F1 /* DesignViewController.swift */; };
 		B68FCE501F25391D00459C7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68FCE4F1F25391D00459C7B /* AppDelegate.swift */; };
-		B68FCE521F25391D00459C7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68FCE511F25391D00459C7B /* ViewController.swift */; };
-		B68FCE551F25391D00459C7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68FCE531F25391D00459C7B /* Main.storyboard */; };
 		B68FCE581F25391D00459C7B /* GridWallPaper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B68FCE561F25391D00459C7B /* GridWallPaper.xcdatamodeld */; };
 		B68FCE5A1F25391D00459C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68FCE591F25391D00459C7B /* Assets.xcassets */; };
 		B68FCE5D1F25391D00459C7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68FCE5B1F25391D00459C7B /* LaunchScreen.storyboard */; };
+		B68FCE661F254BFC00459C7B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68FCE651F254BFC00459C7B /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A0D6570D8F7DD2F7D07CF76 /* Pods_GridWallPaper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GridWallPaper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60CC7D91F2E722B005394F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B60CC7DE1F2E7571005394F1 /* DesignViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignViewController.swift; path = Views/DesignViewController.swift; sourceTree = "<group>"; };
 		B68FCE4C1F25391D00459C7B /* GridWallPaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridWallPaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68FCE4F1F25391D00459C7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B68FCE511F25391D00459C7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B68FCE541F25391D00459C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B68FCE571F25391D00459C7B /* GridWallPaper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GridWallPaper.xcdatamodel; sourceTree = "<group>"; };
 		B68FCE591F25391D00459C7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B68FCE5C1F25391D00459C7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B68FCE5E1F25391D00459C7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68FCE651F254BFC00459C7B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Utilities/Constants.swift; sourceTree = "<group>"; };
+		E773DC626B6C6EB2EF0B0224 /* Pods-GridWallPaper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridWallPaper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GridWallPaper/Pods-GridWallPaper.debug.xcconfig"; sourceTree = "<group>"; };
+		ED090278F73063A79204625E /* Pods-GridWallPaper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridWallPaper.release.xcconfig"; path = "Pods/Target Support Files/Pods-GridWallPaper/Pods-GridWallPaper.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E69174BEB0C1D86FF4E7552 /* Pods_GridWallPaper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A33F8C0CB9EF345EEF78FF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D6570D8F7DD2F7D07CF76 /* Pods_GridWallPaper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AB039D60AB541FC314EBC57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E773DC626B6C6EB2EF0B0224 /* Pods-GridWallPaper.debug.xcconfig */,
+				ED090278F73063A79204625E /* Pods-GridWallPaper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B60CC7DB1F2E74B2005394F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B60CC7DE1F2E7571005394F1 /* DesignViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B60CC7DC1F2E74BC005394F1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B68FCE5B1F25391D00459C7B /* LaunchScreen.storyboard */,
+				B60CC7D81F2E722B005394F1 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		B60CC7DD1F2E74CB005394F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		B68FCE431F25391D00459C7B = {
 			isa = PBXGroup;
 			children = (
 				B68FCE4E1F25391D00459C7B /* GridWallPaper */,
 				B68FCE4D1F25391D00459C7B /* Products */,
+				4AB039D60AB541FC314EBC57 /* Pods */,
+				0A33F8C0CB9EF345EEF78FF1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +106,24 @@
 		B68FCE4E1F25391D00459C7B /* GridWallPaper */ = {
 			isa = PBXGroup;
 			children = (
+				B60CC7DD1F2E74CB005394F1 /* Models */,
+				B60CC7DC1F2E74BC005394F1 /* Storyboards */,
+				B60CC7DB1F2E74B2005394F1 /* Views */,
+				B68FCE641F254BD400459C7B /* Utilities */,
 				B68FCE4F1F25391D00459C7B /* AppDelegate.swift */,
-				B68FCE511F25391D00459C7B /* ViewController.swift */,
-				B68FCE531F25391D00459C7B /* Main.storyboard */,
 				B68FCE591F25391D00459C7B /* Assets.xcassets */,
-				B68FCE5B1F25391D00459C7B /* LaunchScreen.storyboard */,
 				B68FCE5E1F25391D00459C7B /* Info.plist */,
 				B68FCE561F25391D00459C7B /* GridWallPaper.xcdatamodeld */,
 			);
 			path = GridWallPaper;
+			sourceTree = "<group>";
+		};
+		B68FCE641F254BD400459C7B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B68FCE651F254BFC00459C7B /* Constants.swift */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +133,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B68FCE611F25391D00459C7B /* Build configuration list for PBXNativeTarget "GridWallPaper" */;
 			buildPhases = (
+				F254577E0510AA680DDDB1E2 /* [CP] Check Pods Manifest.lock */,
 				B68FCE481F25391D00459C7B /* Sources */,
 				B68FCE491F25391D00459C7B /* Frameworks */,
 				B68FCE4A1F25391D00459C7B /* Resources */,
+				FF3D2CE235269E6E8ABC65E5 /* [CP] Embed Pods Frameworks */,
+				CF887BA965673844BDA3D4FE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,32 +189,81 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B60CC7DA1F2E722B005394F1 /* Main.storyboard in Resources */,
 				B68FCE5D1F25391D00459C7B /* LaunchScreen.storyboard in Resources */,
 				B68FCE5A1F25391D00459C7B /* Assets.xcassets in Resources */,
-				B68FCE551F25391D00459C7B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CF887BA965673844BDA3D4FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GridWallPaper/Pods-GridWallPaper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F254577E0510AA680DDDB1E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF3D2CE235269E6E8ABC65E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GridWallPaper/Pods-GridWallPaper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B68FCE481F25391D00459C7B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B68FCE521F25391D00459C7B /* ViewController.swift in Sources */,
 				B68FCE581F25391D00459C7B /* GridWallPaper.xcdatamodeld in Sources */,
 				B68FCE501F25391D00459C7B /* AppDelegate.swift in Sources */,
+				B60CC7DF1F2E7571005394F1 /* DesignViewController.swift in Sources */,
+				B68FCE661F254BFC00459C7B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B68FCE531F25391D00459C7B /* Main.storyboard */ = {
+		B60CC7D81F2E722B005394F1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B68FCE541F25391D00459C7B /* Base */,
+				B60CC7D91F2E722B005394F1 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -263,6 +374,7 @@
 		};
 		B68FCE621F25391D00459C7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E773DC626B6C6EB2EF0B0224 /* Pods-GridWallPaper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J7KASTD2Y4;
@@ -276,6 +388,7 @@
 		};
 		B68FCE631F25391D00459C7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED090278F73063A79204625E /* Pods-GridWallPaper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J7KASTD2Y4;
@@ -306,6 +419,7 @@
 				B68FCE631F25391D00459C7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
