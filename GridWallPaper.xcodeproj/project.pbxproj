@@ -19,6 +19,7 @@
 		B690E8731F3D883E009EE197 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = B690E8721F3D883E009EE197 /* Device.swift */; };
 		B690E8751F3D8CB1009EE197 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B690E8741F3D8CB1009EE197 /* Extensions.swift */; };
 		B690E8771F49487D009EE197 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B690E8761F49487D009EE197 /* PreviewViewController.swift */; };
+		B690E8791F496E84009EE197 /* WallPaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B690E8781F496E84009EE197 /* WallPaper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		B690E8721F3D883E009EE197 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		B690E8741F3D8CB1009EE197 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		B690E8761F49487D009EE197 /* PreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PreviewViewController.swift; path = Views/PreviewViewController.swift; sourceTree = "<group>"; };
+		B690E8781F496E84009EE197 /* WallPaper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WallPaper.swift; path = Models/WallPaper.swift; sourceTree = "<group>"; };
 		E773DC626B6C6EB2EF0B0224 /* Pods-GridWallPaper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridWallPaper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GridWallPaper/Pods-GridWallPaper.debug.xcconfig"; sourceTree = "<group>"; };
 		ED090278F73063A79204625E /* Pods-GridWallPaper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridWallPaper.release.xcconfig"; path = "Pods/Target Support Files/Pods-GridWallPaper/Pods-GridWallPaper.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +93,7 @@
 		B60CC7DD1F2E74CB005394F1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B690E8781F496E84009EE197 /* WallPaper.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				B68FCE581F25391D00459C7B /* GridWallPaper.xcdatamodeld in Sources */,
 				B690E8711F3D85E9009EE197 /* LibraryViewController.swift in Sources */,
 				B68FCE501F25391D00459C7B /* AppDelegate.swift in Sources */,
+				B690E8791F496E84009EE197 /* WallPaper.swift in Sources */,
 				B690E8731F3D883E009EE197 /* Device.swift in Sources */,
 				B60CC7DF1F2E7571005394F1 /* DesignViewController.swift in Sources */,
 				B68FCE661F254BFC00459C7B /* Constants.swift in Sources */,
