@@ -9,5 +9,7 @@
 import Foundation
 
 struct ExampleIcons {
-    static let nameArr = ["airbnb", "appAdvice", "chrome", "crossyChicken", "espn", "facebookMessager", "findMyPhone", "garageBand", "gmail", "googleMap", "hearthstone", "icloud", "instagram", "keynote", "onesafe", "outlook", "slack", "spark", "spotify", "twitter", "weather", "workflow", "wwdc", "youtubeMusic"]
+    static let nameArr = ["Airbnb", "App Advice", "Chrome", "Crossy Chicken", "ESPN", "Facebook Messager", "Find iPhone", "Garage Band", "Gmail", "Google Map", "Hearth Stone", "iCloud Drive", "Instagram", "Keynote", "Onesafe", "Outlook", "Slack", "Spark", "Spotify", "Twitter", "Weather", "Workflow", "WWDC", "Youtube Music"]
+    
+    static let bottomIcons = ["Weather", "Workflow", "WWDC", "Youtube Music"]
 }
